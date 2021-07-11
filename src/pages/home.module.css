@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servicesBox {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.serviceTitle {
+  color: gray;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.serviceTitle:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}

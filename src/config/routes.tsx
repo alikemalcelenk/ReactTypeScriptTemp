@@ -1,3 +1,6 @@
+// pages
+import HomePage from '../pages/home'
+
 // routes
 import EngineerJavaRoutes from '../services/EngineerJava/config/routes'
 import LearningPathJavaRoutes from '../services/LearningPathJava/config/routes'
@@ -9,6 +12,7 @@ import MIPPythonRoutes from '../services/MIPPython/config/routes'
 import { Routes } from './types'
 
 export const ROUTES: Routes = {
+  Home: { path: '/', page: <HomePage /> },
   ...EngineerJavaRoutes,
   ...LearningPathJavaRoutes,
   ...LearningPathNodejsRoutes,
