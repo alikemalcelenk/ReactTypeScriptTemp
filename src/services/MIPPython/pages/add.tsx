@@ -1,11 +1,10 @@
 import { FunctionComponent } from 'react'
 
+// components
+import Content from '../components/AddPageContent'
+
 const MIPPythonAddPage: FunctionComponent = () => {
-  return (
-    <div>
-      <p>MIP Python Add Page</p>
-    </div>
-  )
+  return <Content />
 }
 
 export default MIPPythonAddPage

@@ -1,11 +1,10 @@
 import { FunctionComponent } from 'react'
 
+// components
+import Content from '../components/AddPageContent'
+
 const LearningPathNodejsAddPage: FunctionComponent = () => {
-  return (
-    <div>
-      <p>Learning Path Node.js Add Page</p>
-    </div>
-  )
+  return <Content />
 }
 
 export default LearningPathNodejsAddPage

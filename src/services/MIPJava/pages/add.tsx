@@ -1,11 +1,9 @@
 import { FunctionComponent } from 'react'
+// components
+import Content from '../components/AddPageContent'
 
 const MIPJavaAddPage: FunctionComponent = () => {
-  return (
-    <div>
-      <p>MIP Java Add Page</p>
-    </div>
-  )
+  return <Content />
 }
 
 export default MIPJavaAddPage

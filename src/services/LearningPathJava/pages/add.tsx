@@ -1,11 +1,10 @@
 import { FunctionComponent } from 'react'
 
+// components
+import Content from '../components/AddPageContent'
+
 const LearningPathJavaAddPage: FunctionComponent = () => {
-  return (
-    <div>
-      <p>Engineer Java Add Page</p>
-    </div>
-  )
+  return <Content />
 }
 
 export default LearningPathJavaAddPage
