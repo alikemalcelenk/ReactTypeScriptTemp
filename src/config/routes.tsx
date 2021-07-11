@@ -1,5 +1,6 @@
 // pages
 import HomePage from '../pages/home'
+import ErrorNotFoundPage from '../pages/errorNotFound'
 
 // routes
 import EngineerJavaRoutes from '../services/EngineerJava/config/routes'
@@ -17,5 +18,6 @@ export const ROUTES: Routes = {
   ...LearningPathJavaRoutes,
   ...LearningPathNodejsRoutes,
   ...MIPJavaRoutes,
-  ...MIPPythonRoutes
+  ...MIPPythonRoutes,
+  ErrorNotFound: { path: '', page: <ErrorNotFoundPage /> }
 }
